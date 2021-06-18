@@ -81,31 +81,31 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|--------+--------+--------+--------+--------+--------|           |--------+--------+--------+--------+--------+--------|
        Z     ,  X     ,  C     ,  V     ,  B     ,MBTN3               ,  N     ,  M     , COMM   , DOT    , SLSH   , ENT    ,
   //|--------+--------+--------+--------+--------+--------|           |--------+--------+--------+--------+--------+--------|
-      LSFT   , LALT   ,     LOWER  ,L_SPC   ,LCTL    ,ESC        ,MBTN1  ,RAISE   ,LOWER     ,      TAB     , BSLS   , RSFT 
+      LSFT   , LOWER  ,     LALT   ,L_SPC   ,LCTL    ,ESC        ,MBTN1  ,RAISE   ,LOWER     ,      TAB     , BSLS   , RSFT 
   //|--------+--------+    +-------+--------+--------+--------|  |-------+--------+--------+     +--------+--------+--------|
   ),
 
   [_RAISE] = LAYOUT( \
   //,--------+--------+--------+--------+--------+--------.           ,--------+--------+--------+--------+--------+--------.
-     KC_1    ,KC_2    ,KC_3    ,KC_4    ,KC_5    ,KC_MBTN1,           KC_6     ,KC_7    ,KC_8    ,KC_9    ,KC_0    ,KC_DEL  ,
+     KC_1    ,KC_2    ,KC_3    ,KC_4    ,KC_5    ,KC_MBTN3,           KC_6     ,KC_7    ,KC_8    ,KC_9    ,KC_0    ,KC_DEL  ,
   //|--------+--------+--------+--------+--------+--------|           |--------+--------+--------+--------+--------+--------|
-     XXXXXXX ,XXXXXXX ,XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_MBTN2,            KC_LEFT ,KC_DOWN , KC_UP  ,KC_RGHT ,KC_LBRC ,KC_RBRC ,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_MBTN3,            KC_LEFT ,KC_DOWN , KC_UP  ,KC_RGHT ,KC_LBRC ,KC_RBRC ,
   //|--------+--------+--------+--------+--------+--------|           |--------+--------+--------+--------+--------+--------|
-     XXXXXXX ,XXXXXXX ,XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_MBTN3            ,KC_HOME ,KC_PGDN ,KC_PGUP ,KC_END  ,XXXXXXX ,KC_ENT ,
+     XXXXXXX ,XXXXXXX ,XXXXXXX ,XXXXXXX ,XXXXXXX ,KC_MBTN1            ,KC_HOME ,KC_PGDN ,KC_PGUP ,KC_END  ,XXXXXXX ,KC_ENT ,
   //|--------+--------+--------+--------+--------+--------|           |--------+--------+--------+--------+--------+--------|
-     KC_LSFT ,KC_LALT ,    LOWER   ,KC_SPC  ,KC_LCTL ,KC_ESC     ,KC_MBTN3,RAISE  ,LOWER   ,      XXXXXXX ,XXXXXXX ,KC_RSFT
+     KC_LSFT ,LOWER   ,    KC_LALT ,KC_SPC  ,KC_LCTL ,KC_ESC     ,KC_MBTN3,RAISE  ,LOWER   ,      XXXXXXX ,XXXXXXX ,KC_RSFT
   //|--------+--------+    +-------+--------+--------+--------|  |-------+--------+--------+     +--------+--------+--------|
   ),
 
   [_LOWER] = LAYOUT( \
   //,--------+--------+--------+--------+--------+--------.           ,--------+--------+--------+--------+--------+--------.
-     KC_EXLM , KC_AT  ,KC_HASH , KC_DLR ,KC_PERC ,KC_MBTN1,            KC_CIRC ,KC_AMPR ,KC_ASTR ,KC_MINS , KC_EQL , KC_DEL ,
+     KC_EXLM , KC_AT  ,KC_HASH , KC_DLR ,KC_PERC ,KC_MBTN3,            KC_CIRC ,KC_AMPR ,KC_ASTR ,KC_MINS , KC_EQL , KC_DEL ,
   //|--------+--------+--------+--------+--------+--------|           |--------+--------+--------+--------+--------+--------|
-     KC_F1   , KC_F2  , KC_F3  , KC_F4  , KC_F5  ,KC_MBTN2,            KC_MBTN1,KC_MBTN2,XXXXXXX ,XXXXXXX ,KC_LCBR ,KC_RCBR ,
+     KC_F1   , KC_F2  , KC_F3  , KC_F4  , KC_F5  ,KC_MBTN3,            KC_MBTN1,KC_MBTN2,XXXXXXX ,XXXXXXX ,KC_LCBR ,KC_RCBR ,
   //|--------+--------+--------+--------+--------+--------|           |--------+--------+--------+--------+--------+--------|
-     KC_F6   , KC_F7  , KC_F8  , KC_F9  , KC_F10 ,KC_MBTN3            , KC_F11 , KC_F12 ,XXXXXXX ,XXXXXXX ,XXXXXXX ,XXXXXXX ,
+     KC_F6   , KC_F7  , KC_F8  , KC_F9  , KC_F10 ,KC_MBTN1            , KC_F11 , KC_F12 ,XXXXXXX ,XXXXXXX ,XXXXXXX ,XXXXXXX ,
   //|--------+--------+--------+--------+--------+--------|           |--------+--------+--------+--------+--------+--------|
-     KC_LSFT ,KC_LALT ,    LOWER   ,KC_SPC  ,KC_LCTL ,KC_ESC     ,KC_MBTN3,RAISE  ,LOWER   ,      XXXXXXX ,XXXXXXX ,KC_RSFT
+     KC_LSFT ,LOWER   ,    KC_LALT ,KC_SPC  ,KC_LCTL ,KC_ESC     ,KC_MBTN3,RAISE  ,LOWER   ,      XXXXXXX ,XXXXXXX ,KC_RSFT
   //|--------+--------+    +-------+--------+--------+--------|  |-------+--------+--------+     +--------+--------+--------|
   ),
 
